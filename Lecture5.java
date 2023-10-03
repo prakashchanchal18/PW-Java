@@ -135,5 +135,43 @@ public class Lecture5 {
             Boolean r = true;
             System.out.println (p==q==r);   Ans: true
     */
+
+    /*
+        6. Java Bitwise Operators
+            - Bitwise OR (|)
+                E.g. - 9 = (1001) and 10 = (1010) now 9|10 = (1001 | 1010) = (1011) = 11
+
+            - Bitwise AND (&)
+                E.g. - 9 = (1001) and 10 = (1010) now 9&10 = (1001 | 1010) = (1000) = 8
+
+            - Bitwise exclusive OR (^)
+                - if both bits are same it will return 0 and if both bits are different it will return 1.
+                E.g. - 9 = (1001) and 10 = (1010) now 9^10 = (1001 | 1010) = (0011) = 3
+
+            - Bitwise Complement (~) tilde
+                - It inverts all the bits.
+                E.g. - 9 = (1001) then ~9 = (0110) = 6
+
+            - Left Shift (<<)
+                - It needs two parameters (num << no. of left shift).
+                - a << b = a*2^b
+                E.g. - 9 = (1001) then 9<<1 = (10010) = 18, 9<<2 = (100100) = 36
+
+            - Right Shift (>>)
+                - It needs two parameters (num >> no. of right shift).
+                - a >> b = a/2^b
+                E.g. - 9 = (1001) then 9>>1 = (100) = 4, 9>>2 = (10) = 2
+    */
+        int g = 9;
+        int h = 10;
+        System.out.println(g | h);
+        System.out.println(g & h);
+        System.out.println(g ^ h);
+        System.out.println(~g);
+        System.out.println(g << 1);
+        System.out.println(g << 2);
+        System.out.println(g >> 1);
+        System.out.println(g >> 2);
+
     }
 }
