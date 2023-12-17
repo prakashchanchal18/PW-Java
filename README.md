@@ -1,1 +1,1 @@
-This Repository contains leacture codes and notes taught on PhysicsWallah Youtube channel.
+This Repository contains codes and notes taught on PhysicsWallah Youtube channel of the playlist - Java and DSA Foundation Course.
